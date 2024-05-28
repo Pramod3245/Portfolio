@@ -1,11 +1,17 @@
-// next.config.js
+// @ts-check
 
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  basePath: process.env.GITHUB_ACTIONS ? '/Portfolio' : '',
-  assetPrefix: process.env.GITHUB_ACTIONS ? '/Portfolio/' : '',
-};
+  // Injecting the property "output" with value "export"
+  output: 'export',
+  // other config options here
+}
 
-export default nextConfig;
+export default (phase, { defaultConfig }) => {
+  return {
+    ...defaultConfig,
+    ...nextConfig
+  }
+}
