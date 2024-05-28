@@ -5,7 +5,6 @@
  */
 const nextConfig = {
   // Injecting the property "output" with value "export"
-  output: 'export',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '',
   // other config options here
 }
