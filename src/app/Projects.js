@@ -1,9 +1,9 @@
 import React from 'react';
 import { DirectionAwareHover } from '../components/ui/direction-aware-hover';
 
-import sign from '../images/Sign.jpeg'
-import color from '../images/color.png'
-import bike from '../images/bike.jpg'
+import sign from '../../public/images/Sign.jpeg'
+import color from '../../public/images/color.png'
+import bike from '../../public/images/bike.jpg'
 
 const projects = [
   {
