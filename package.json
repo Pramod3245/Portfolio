@@ -26,6 +26,7 @@
     "react-scroll": "^1.9.0",
     "react-spring": "^9.7.3",
     "react-tsparticles": "^2.12.2",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.3.0",
     "tsparticles": "^3.4.0"
   },
