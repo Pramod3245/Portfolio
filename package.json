@@ -2,9 +2,12 @@
   "name": "reactport",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && next export && gh-pages -d out"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.4.0",
