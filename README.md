@@ -8,9 +8,8 @@
 
 This is a personal portfolio website showcasing my projects, skills, and experiences. It is built using Next.js, a React framework, to create a fast and dynamic web application.
 
-## Live Demo
-( Will add Soon! )
-[View Live Demo](https://portfolio-wine-ten-66.vercel.app/)
+## Visit the LIVE website
+[Redirect to the website](https://portfolio-wine-ten-66.vercel.app/)
 
 ## Features
 
