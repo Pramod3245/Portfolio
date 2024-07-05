@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="flex flex-col items-center space-y-4">
           <div className="flex items-center space-x-4">
             <FaLinkedin className="w-8 h-8 text-blue-500" />
-            <a href="https://www.linkedin.com/in/pramod1malagi/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/pramod1malagi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
           </div>
           <div className="flex items-center space-x-4">
             <FaGithub className="w-8 h-8 text-gray-800" />
