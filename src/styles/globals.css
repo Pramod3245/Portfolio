@@ -1,0 +1,14 @@
+@keyframes scroll {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: 200%; /* Increased range for a more prominent effect */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 15s linear infinite; /* Slowed down for better visibility */
+  filter: brightness(0.5); /* Darkens the background for better contrast */
+  opacity: 0.8; /* Makes the background more prominent */
+}

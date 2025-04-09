@@ -9,9 +9,16 @@ import React from 'react';
 const Project = ({ name, description, githubLink }) => {
   return (
     <div className="bg-white p-4 rounded-md shadow-md">
-      <h3 className="text-4xl font-bold mb-2 text-black">{name}</h3>
-      <p className="text-gray-700 mb-4">{description}</p>
-      <a href={githubLink} target="_blank" rel="noopener noreferrer" className="text-red-700-500 hover:underline">View on GitHub</a>
+      <h3 className="text-3xl font-semibold mb-2 text-black">{name}</h3> {/* Reduced font size */}
+      <p className="text-gray-700 text-sm mb-4">{description}</p> {/* Adjusted text size */}
+      <a 
+        href={githubLink} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-red-500 hover:underline text-sm" /* Reduced link size */
+      >
+        View on GitHub
+      </a>
     </div>
   );
 };
@@ -88,11 +95,11 @@ export const DirectionAwareHover = ({
             <Image
               alt="image"
               className={cn(
-                "h-full w-full object-cover scale-[1.15]",
+                "h-full w-full object-cover scale-[1.05]", // Reduced scale for smaller size
                 imageClassName
               )}
-              width="1000"
-              height="1000"
+              width="800" // Reduced width
+              height="800" // Reduced height
               src={imageUrl}
             />
           </motion.div>
